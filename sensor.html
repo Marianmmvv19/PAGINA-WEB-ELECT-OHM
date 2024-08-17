@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRÓNICA: OHMIO | DESCRIPCIÓN </title>
+    <link rel="stylesheet" href="estilo.css">
+    <body style="background-image: url(img/FONDO.jpg); background-repeat: no-repeat; background-size: cover; font"></bodystyle>>
+<section>
+  <center><h1> SENSOR HC-SR04 </h1>
+    <P>El sensor HC-SR04 es un sensor de distancia de bajo costo que utiliza ultrasonido para determinar la distancia de un objeto en un rango de 2 a 450 cm. Destaca por su pequeño tamaño, bajo consumo energético, buena precisión y excelente precio. El sensor HC-SR04 es el más utilizado dentro de los sensores de tipo ultrasonido, principalmente por la cantidad de información y proyectos disponibles en la web. De igual forma es el más empleado en proyectos de robótica como robots laberinto o sumo, y en proyectos de automatización como sistemas de medición de nivel o distancia.
+
+    El sensor HC-SR04 posee dos transductores: un emisor y un receptor piezoeléctricos, además de la electrónica necesaria para su operación. El funcionamiento del sensor es el siguiente: el emisor piezoeléctrico emite 8 pulsos de ultrasonido(40KHz) luego de recibir la orden en el pin TRIG, las ondas de sonido viajan en el aire y rebotan al encontrar un objeto, el sonido de rebote es detectado por el receptor piezoeléctrico, luego el pin ECHO cambia a Alto (5V) por un tiempo igual al que demoró la onda desde que fue emitida hasta que fue detectada, el tiempo del pulso ECO es medido por el microcontrolador y asi se puede calcular la distancia al objeto. El funcionamiento del sensor no se ve afectado por la luz solar o material de color negro (aunque los materiales blandos acústicamente como tela o lana pueden llegar a ser difíciles de detectar).
+        
+    La distancia se puede calcular utilizando la siguiente formula:
+        
+    Distancia(m) = {(Tiempo del pulso ECO) * (Velocidad del sonido=340m/s)}/2
+        
+    El sensor US-016 es similar al HC-SR04 pero con salida de tipo analógico, otro sensor ultrasonido es el sensor US-100 con salida de tipo uart/serial. </P>
+</section>
+<hr>
